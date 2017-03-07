@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Tic Tac Toe Game",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenGitter/tic-tac-toe.git"
+  },
+  "author": "Benjamin van Zwienen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenGitter/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/BenGitter/tic-tac-toe#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1"
+  }
+}
