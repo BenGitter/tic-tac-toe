@@ -1,0 +1,88 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling*/
+header{
+  width: 100vw;
+  background: rgb(100,150,100);
+  padding: 6px 0;
+}
+header .title{
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  font-size: 16px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* Screen styling */
+.screen{
+  position: absolute;
+  top: calc(50vh - 150px);
+  left: calc(50vw - 150px);
+  width: 300px;
+  height: 300px;
+  transition: opacity .4s;
+}
+
+/* Game board styling*/
+#board{
+  background-color: rgb(50,70,50);
+  opacity: 0;
+}
+
+.tile{
+  width: 96px;
+  height: 96px;
+  background: white;
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+.tile span{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #333348;
+}
+
+.tile:nth-child(3n){
+  margin-right: 0;
+}
+
+/* Select symbol styling */
+#chooseSymbol{
+  text-align: center;
+  background-color: rgba(100,150,100,0.2);
+  border-radius: 10px;
+}
+#chooseSymbol h3{
+  margin-top: 90px;
+  margin-bottom: 25px;
+}
+
+.symbol{
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 27px;
+  font-weight: bold;
+  transition: color .3s;
+}
+.symbol:hover{
+  color: rgb(10,50,10);
+}
+.symbol-or{
+  font-size: 14px;
+  color: #333;
+}
